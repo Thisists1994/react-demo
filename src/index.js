@@ -76,7 +76,7 @@ class Board extends React.Component {
                 <div className="board-row">
                     {
                         [0, 1, 2].map(
-                            (i, index) => (this.renderSquare(i, index)) // 这里map就是
+                            (i, index) => (this.renderSquare(i, index)) // 这里map就是获取数组的value和index值 用来当做参数传递给Square组件
                         )
                     }
                     {/* {this.renderSquare(0)}
